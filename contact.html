@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>
+          <li><a href="index.html">Página Principal</a></li>
+          <li><a href="about.html">Sobre a clínica</a></li>
+          <li><a href="attendance.html">Horários de Atendimento</a></li>
+          <li><a href="contact.html">Contato</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <div class="header">
+          <!-- Aqui vai o seu header -->
+          <div class="image">
+            <img
+              src="./imagens/logo.png"
+              alt="Logo da clínica med-prev"
+              width="200"
+            />
+
+            <div class="contact">
+              <h3>Fale Conosco</h3>
+              <p>
+                Tire todas as suas dúvidas sobre agendamentos de consultas,
+                exames e parcerias com a Medprev. Temos diversos canais de
+                atendimento exclusivos para você!
+              </p>
+            </div>
+
+            <img
+              src="./imagens/attendant.png"
+              alt="Imagem do ator Marcelo Serrado segurando o cartão da medprev na mão"
+              width="280"
+            />
+          </div>
+        </div>
+
+        <div class="content">
+          <!-- Aqui vai o seu conteúdo -->
+          <div class="address">
+            <div>
+              <h3>Medprev Biguaçu</h3>
+              <div>
+                <p>Rua Tal de tal, 222, Centro, Biguaçu-SC</p>
+              </div>
+
+              <div>
+                <p>
+                  Segunda a Sexta das 08:00 às 18:00<br />
+                  Horário de almoço das 12:00 às 13:00
+                </p>
+              </div>
+
+              <div class="call">
+                <p><ion-icon name="call"></ion-icon> (55) 3029-8932</p>
+
+                <p><ion-icon name="logo-whatsapp"></ion-icon> (55) 9999-9999</p>
+              </div>
+            </div>
+
+            <div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3549.1813894445786!2d-48.50735748544067!3d-27.182035211036233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8a69114988d37%3A0x54494aa8a0b9687d!2sR.%20Bagua%C3%A7u%20-%20Canto%20Grande%2C%20Bombinhas%20-%20SC%2C%2088215-000!5e0!3m2!1spt-BR!2sbr!4v1665609314115!5m2!1spt-BR!2sbr"
+                width="500"
+                height="350"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="box-form">
+            <form>
+              <div>
+                <label for="nome">Nome</label>
+                <input
+                  type="text"
+                  name="nome"
+                  id="nome"
+                  placeholder="Insira seu nome"
+                />
+              </div>
+              <div>
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Insira um email válido"
+                />
+              </div>
+              <div>
+                <label for="assunto">Assunto</label>
+                <input type="assunto" name="assunto" id="assunto" />
+              </div>
+              <div>
+                <label for="mensagem">Mensagem</label><br />
+                <textarea
+                  name="mensagem"
+                  id="mensagem"
+                  cols="46"
+                  rows="10"
+                ></textarea>
+              </div>
+
+              <div>
+                <button type="button">Enviar</button>
+                <button type="reset">Limpar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer">
+          <!-- Aqui vai o seu rodapé -->
+          <div class="footer-content">
+            <div>
+              <img src="./imagens/logo-footer.png" alt="Logo da medprev" />
+              <p>Pague quando usar,<br />use sempre que precisar.</p>
+
+              <p>
+                <span><b>SMS:</b></span> 3000-5555
+              </p>
+              <p>
+                <span><b>Whats:</b></span> 55 9990-9898
+              </p>
+              <p>
+                <b>Atendimento ao Cliente</b><br />
+                sac@medprev.teste.br
+              </p>
+            </div>
+
+            <div>
+              <div>
+                <h4>REDES SOCIAIS</h4>
+
+                <img
+                  src="./imagens/instagram.png"
+                  alt="Ícone da rede social Instagram"
+                />
+
+                <img
+                  src="./imagens/facebook.png"
+                  alt="Ícone da rede social Facebook"
+                />
+              </div>
+              <div>
+                <h4>DOWNLOAD APP</h4>
+
+                <img
+                  src="./imagens/google-play.png"
+                  alt="Ícone do google-play para baixar o app da clínica medprev para smartphones sistema android"
+                />
+                <br />
+                <img
+                  src="./imagens/appstore.png"
+                  alt="Ícone do app-store para baixar o app da clínica medprev para smartphones com o sistema IOS"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
